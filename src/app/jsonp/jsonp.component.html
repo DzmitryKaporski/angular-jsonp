@@ -1,0 +1,12 @@
+<div class="column">
+  <div>
+    <label for="search">Search: </label>
+    <input #wikiText (keydown.enter)="search(wikiText.value)" id="search" type="text" value="angular">
+    <button (click)="search(wikiText.value)" type="button">GO</button>
+  </div>
+</div>
+
+<div *ngFor="let item of items">
+  <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
+  <p *ngIf="item.description">{{item.description}}</p>
+</div>

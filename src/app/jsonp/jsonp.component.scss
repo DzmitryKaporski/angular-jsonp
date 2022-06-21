@@ -1,0 +1,20 @@
+input {
+  margin: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px grey;
+}
+
+button {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 10px grey;
+
+  &:hover {
+    cursor: pointer;
+    color: grey;
+    box-shadow: 0 0 5px grey;
+  }
+}
