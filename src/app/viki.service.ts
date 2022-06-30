@@ -5,7 +5,7 @@ import { map, Observable } from 'rxjs';
 
 import { data } from './shared/data';
 
-const url = "http://ru.wikipedia.org/w/api.php"
+const url = "https://ru.wikipedia.org/w/api.php"
 
 @Injectable({
   providedIn: 'root'
