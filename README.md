@@ -1,6 +1,6 @@
 # Task: Implements wikipedia application search using jsonp.
 
-# Deploy: [angular-json](https://angular-jsonp.surge.sh/)
+# Deploy: [angular-jsonp](https://angular-jsonp.surge.sh/)
 # AngularJson
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
