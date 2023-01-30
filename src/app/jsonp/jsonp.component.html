@@ -7,6 +7,8 @@
 </div>
 
 <div *ngFor="let item of items">
-  <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
+  <ul class="list">
+    <li class="list-item"><a href="{{item.link}}" target="_blank">{{item.name}}</a></li>
+  </ul>
   <p *ngIf="item.description">{{item.description}}</p>
 </div>
